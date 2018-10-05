@@ -4,6 +4,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
 
 import { Link } from "react-router-dom";
+import { CityLogo } from "../Utils/icons";
 
 const Header = () => {
   return (
@@ -19,7 +20,9 @@ const Header = () => {
       >
         <Toolbar style={{ display: "flex" }}>
           <div style={{ flexGrow: 1 }}>
-            <div className="header_logo">LOGO</div>
+            <div className="header_logo">
+              <CityLogo link={true} linkTo="/" width="70px" height="70px" />
+            </div>
           </div>
           <Link to="/the_team">
             <Button color="inherit">The Team</Button>
