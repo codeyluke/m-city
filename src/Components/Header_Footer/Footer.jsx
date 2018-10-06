@@ -1,6 +1,6 @@
 import React from "react";
 
-import { CityLogo } from "../Utils/icons";
+import { CityLogo } from "../Utils/Icons";
 
 const Footer = () => {
   return (
