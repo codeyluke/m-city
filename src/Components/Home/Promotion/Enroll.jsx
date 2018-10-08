@@ -68,7 +68,7 @@ class Enroll extends Component {
       this.setState({
         formSucess: ""
       });
-    }, 2000);
+    }, 4000);
   };
 
   submitForm = e => {
