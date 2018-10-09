@@ -41,6 +41,8 @@ class Enroll extends Component {
       formData: newFormData,
       formSucess: type ? "Congratulation" : "Already on the database"
     });
+
+    this.sucessMessage();
   };
 
   updateForm = element => {
@@ -59,8 +61,6 @@ class Enroll extends Component {
       formError: false,
       formData: newFormData
     });
-
-    this.sucessMessage();
   };
 
   sucessMessage = () => {
