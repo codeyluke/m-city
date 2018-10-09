@@ -13,7 +13,7 @@ class Enroll extends Component {
         element: "input",
         value: "",
         config: {
-          name: "email",
+          name: "email_input",
           type: "email",
           placeholder: "Enter your email"
         },
