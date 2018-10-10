@@ -232,7 +232,7 @@ class AddEditMatch extends Component {
     this.setState({
       formSuccess: message
     });
-    console.log(this.state.formSuccess);
+
     setTimeout(() => {
       this.setState({
         formSuccess: ""
