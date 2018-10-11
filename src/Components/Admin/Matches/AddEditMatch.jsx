@@ -247,7 +247,6 @@ class AddEditMatch extends Component {
 
     for (let key in this.state.formData) {
       dataToSubmit[key] = this.state.formData[key].value;
-
       formIsValid = this.state.formData[key].valid && formIsValid;
     }
 
