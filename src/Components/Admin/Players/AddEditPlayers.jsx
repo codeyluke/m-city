@@ -6,7 +6,6 @@ import { validate } from "../../Utils/Misc";
 import Fileuploader from "../../Utils/FileUploader";
 
 import { firebase, firebaseDB, firebasePlayers } from "../../../Firebase";
-import { firebaseLooper } from "../../Utils/Misc";
 
 class AddEditPlayers extends Component {
   state = {
