@@ -1,4 +1,8 @@
 React Project - 2 from Udemy - React Practice Course by Coding Revolution
+** Be sure to the check the babe/runtime. There was an issue with it earlier with the boilerplate from create-react-app. 
+Quick fix: 
+npm install --save-exact @babel/runtime@7.0.0-beta.55  
+Of course you would need to install npm i to have the node modules in the project.
 
 In this project I learnt on:
 1. creating routes to navigate inside the SPA. 
