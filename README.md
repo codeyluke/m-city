@@ -1,4 +1,4 @@
-React Project - 2 from Udemy - React Practice Course by Coding Revolution
+React Project 
 ** Be sure to the check the babe/runtime. There was an issue with it earlier with the boilerplate from create-react-app. 
 Quick fix: 
 npm install --save-exact @babel/runtime@7.0.0-beta.55  
